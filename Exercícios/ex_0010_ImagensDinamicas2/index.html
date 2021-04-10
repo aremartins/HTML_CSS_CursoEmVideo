@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <style>
+        body{
+            background-color:rgb(248, 174, 226);
+            color:#ffffff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens que se adaptam ao tamanho da tela</h1>
+    <p>Neste exercício uma mesma foto foi editada em vários tamanhos para que se adapte ao tamanho da tela. Foi usado o editor GIMP - um programa para edição de fotos gratuito</p>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="rebecca-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1000px)" srcset="rebecca-m.jpg" type="image/jpeg">
+        <img src="rebecca.jpg" alt="A imagem flexível funciona">
+    </picture>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+}
+
+div#map{
+    margin: auto;
+    padding-left: 20px;
+
+}
+p{
+    text-align: center;
+    color: blue;
+    font: normal 20pt Arial;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+section{
+    margin-top:200px;
+    background: white;
+    margin: auto;
+    width:500px;
+    box-shadow: 5px 5px 10px black;
+
+}

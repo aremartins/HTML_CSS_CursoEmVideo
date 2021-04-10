@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+    <style>
+        *{
+           margin:0;
+           padding:0;
+        }
+        header{
+            background-color: salmon;
+            max-height: 80px;
+            color:#ffffff;
+            font-size:20px ;
+            font-family: cursive;
+            text-align: center;
+
+        }
+        
+        section{
+            color:snow;
+            background-color: pink;            
+            font-size: 40px;
+            font-family: cursive;
+        }
+
+        img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Imagens flexíveis</h1>        
+    </header>
+
+    <section>
+        <p>Você está vendo a imagem completa? Experimente aumentar ou diminuir o tamanho do navegador para experimentar a melhor experiência. </p>
+        <picture>
+            <source media="(max-width:750px )" srcset="rebecca-p.jpg" type="image/jpeg">
+            <source media="(max-width: 1200px )" srcset="rebecca-m.jpg" type="image/jpeg">        
+            <img src="rebecca-g.jpg" alt="imagem flexível">
+        </picture>
+    </section>
+    
+</body>
+</html>
